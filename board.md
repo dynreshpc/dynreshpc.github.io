@@ -1,19 +1,19 @@
 ---
-title: Elements
+title: Board
 feature_text: |
-  A demo of Markdown and HTML includes
+  Dynamic Resources for HPC Consortium
 feature_image: "https://picsum.photos/2560/600?image=873"
-excerpt: "A demo of Markdown and HTML includes"
+#excerpt: "A demo of Markdown and HTML includes"
 aside: true
 ---
 
-# Steering Committee
+## Steering Committee
 
-{% include figure.html image="https://picsum.photos/600/800?image=894" caption="President" width="300" height="300" %}
+{% include figure.html image="https://picsum.photos/600/800?image=49" caption="President" width="300" height="300" %}
 
-{% include figure.html image="https://picsum.photos/600/800?image=894" caption="Vice-President" width="300" height="300" %}
+{% include figure.html image="https://picsum.photos/600/800?image=50" caption="Vice-President" width="300" height="300" %}
 
-{% include figure.html image="https://picsum.photos/600/800?image=894" caption="Secretary" width="300" height="300" %}
+{% include figure.html image="https://picsum.photos/600/800?image=48" caption="Secretary" width="300" height="300" %}
 
 
 ``` html
