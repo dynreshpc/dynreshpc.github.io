@@ -7,12 +7,12 @@ feature_image: "https://picsum.photos/1300/400?image=16"
 
 {% include figure.html image="/assets/images/group-picture-isc25.jpg" caption="DynResHPC group picture at ISC25" %}
 
-## Steering Committee
+## Board
 
-{% include headshot.html image="https://picsum.photos/600/800?image=49" caption="Person 1" width="200" height="200" %}
-{% include headshot.html image="https://picsum.photos/600/800?image=49" caption="Person 2" width="200" height="200" %}
-{% include headshot.html image="https://picsum.photos/600/800?image=49" caption="Person 3" width="200" height="200" %}
-{% include headshot.html image="https://picsum.photos/600/800?image=49" caption="Person 4" width="200" height="200" %}
+{% include headshot.html image="https://picsum.photos/600/800?image=49" caption="President" width="200" height="200" %}
+{% include headshot.html image="https://picsum.photos/600/800?image=49" caption="Vice-President" width="200" height="200" %}
+{% include headshot.html image="https://picsum.photos/600/800?image=49" caption="Secretary" width="200" height="200" %}
+{% include headshot.html image="https://picsum.photos/600/800?image=49" caption="Board Member" width="200" height="200" %}
 
 ## DynResHPC FAQ
 
