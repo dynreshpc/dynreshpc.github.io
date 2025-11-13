@@ -11,6 +11,8 @@ Alembic is a starting point for [Jekyll](https://jekyllrb.com/) projects. Rather
 
 <img src="https://github.com/dynreshpc/dynreshpc.github.io/blob/main/assets/images/group-picture-isc25.jpg" alt="Group picture at ISC25">
 
+[![Deploy to Netlify](/assets/images/group-picture-isc25.jpg)](https://app.netlify.com/start/deploy?repository=https://github.com/daviddarnes/alembic-kit){:style="background: none"}
+
 ![Alt text](https://github.com/dynreshpc/dynreshpc.github.io/blob/main/assets/images/group-picture-isc25.jpg)
 
 <figure>
