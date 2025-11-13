@@ -128,8 +128,8 @@ navigation_header:
 - title: Events
   url: /elements/
 - title: Resources
-  url: /blog/
-- title: Board
+  #url: /blog/
+  #- title: Board
   url: /board/
   # url: /search/
 - title: Mailing List
