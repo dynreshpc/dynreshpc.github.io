@@ -9,11 +9,11 @@ aside: true
 
 ## Steering Committee
 
-{% include figure.html image="https://picsum.photos/600/800?image=49" caption="President" width="300" height="300" %}
+{% include figure.html image="https://picsum.photos/600/800?image=49" caption="President" width="200" height="200" %}
 
-{% include figure.html image="https://picsum.photos/600/800?image=50" caption="Vice-President" width="300" height="300" %}
+{% include figure.html image="https://picsum.photos/600/800?image=50" caption="Vice-President" width="200" height="200" %}
 
-{% include figure.html image="https://picsum.photos/600/800?image=48" caption="Secretary" width="300" height="300" %}
+{% include figure.html image="https://picsum.photos/600/800?image=48" caption="Secretary" width="200" height="200" %}
 
 
 ``` html
