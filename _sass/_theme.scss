@@ -242,6 +242,28 @@ img {
   }
 }
 
+/* Create a grid layout for multiple figures per row */
+.figure--grid-2 {
+  display: inline-block;
+  width: calc(50% - 10px);
+  margin: 5px;
+  vertical-align: top;
+}
+
+.figure--grid-3 {
+  display: inline-block;
+  width: calc(33.333% - 10px);
+  margin: 5px;
+  vertical-align: top;
+}
+
+.figure--grid-4 {
+  display: inline-block;
+  width: calc(25% - 10px);
+  margin: 5px;
+  vertical-align: top;
+}
+
 .video,
 .map {
   position: relative;
@@ -455,3 +477,4 @@ pre code {
     overflow-x: scroll;
   }
 }
+
