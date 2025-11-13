@@ -127,8 +127,8 @@ navigation_header:
   url: /elements/
 - title: Resources
   url: /blog/
-#- title: Members
-#  url: /categories/
+- title: Test
+  url: /categories/
 - title: Board
   url: /search/
 - title: Mailing List
