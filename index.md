@@ -5,11 +5,12 @@
 #  Dynamic Resources for HPC Consortium
 #feature_image: "https://picsum.photos/1300/400?image=16"
 #excerpt: "The Dynamic Resources for HPC Consortium is a collaborative group focused on advancing dynamic resource management, malleable applications, and adaptive scheduling in High-Performance Computing (HPC) systems."
+aside: true
 ---
 
 {% include figure.html image="/assets/logos/full-logo.png" %}
 
-The Dynamic Resources for HPC Consortium is a collaborative group focused on advancing dynamic resource management, malleable applications, and adaptive scheduling in High-Performance Computing (HPC) systems.
+<!--The Dynamic Resources for HPC Consortium is a collaborative group focused on advancing dynamic resource management, malleable applications, and adaptive scheduling in High-Performance Computing (HPC) systems.-->
 
 ## Updates
 ### Join Us at SC25
