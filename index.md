@@ -17,6 +17,8 @@ Alembic is a starting point for [Jekyll](https://jekyllrb.com/) projects. Rather
 
 ![Alt text]({{ "/assets/images/group-picture-isc25.jpg" | relative_url }})
 
+{% include figure.html image="/assets/images/group-picture-isc25.jpg" caption="Image with caption" %}
+
 <figure>
   <img src="assets/images/group-picture-isc25.jpg" alt="Group picture at ISC25">
   <figcaption>Group picture at ISC25</figcaption>
