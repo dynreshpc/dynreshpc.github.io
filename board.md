@@ -7,7 +7,20 @@ excerpt: "A demo of Markdown and HTML includes"
 aside: true
 ---
 
-# Heading 1
+# Steering Committee
+
+{% include figure.html image="https://picsum.photos/600/800?image=894" caption="President" width="300" height="300" %}
+
+{% include figure.html image="https://picsum.photos/600/800?image=894" caption="Vice-President" width="300" height="300" %}
+
+{% include figure.html image="https://picsum.photos/600/800?image=894" caption="Secretary" width="300" height="300" %}
+
+
+``` html
+# Leadership Board
+
+# Past Steering Committee
+```
 
 ## Heading 2
 
