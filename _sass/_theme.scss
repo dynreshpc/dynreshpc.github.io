@@ -242,28 +242,6 @@ img {
   }
 }
 
-/* Create a grid layout for multiple figures per row */
-.figure--grid-2 {
-  display: inline-block;
-  width: calc(50% - 10px);
-  margin: 5px;
-  vertical-align: top;
-}
-
-.figure--grid-3 {
-  display: inline-block;
-  width: calc(33.333% - 10px);
-  margin: 5px;
-  vertical-align: top;
-}
-
-.figure--grid-4 {
-  display: inline-block;
-  width: calc(25% - 10px);
-  margin: 5px;
-  vertical-align: top;
-}
-
 .video,
 .map {
   position: relative;
@@ -478,3 +456,36 @@ pre code {
   }
 }
 
+/* Headshot grid styling */
+.headshot {
+  display: inline-block;
+  width: calc(25% - 10px);
+  margin: 5px;
+  vertical-align: top;
+  text-align: center;
+}
+
+.headshot-image {
+  border-radius: 8px;
+  width: 100%;
+  height: auto;
+}
+
+.headshot-caption {
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/* Responsive: 2 columns on tablets, 1 on mobile */
+@media (max-width: 768px) {
+  .headshot {
+    width: calc(50% - 10px);
+  }
+}
+
+@media (max-width: 480px) {
+  .headshot {
+    width: 100%;
+  }
+}
