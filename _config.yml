@@ -123,13 +123,13 @@ favicons: # Favicons are also used in the manifest file. Syntax is 'size: path'
 navigation_header:
 - title: Home
   url: /
-- title: Elements
+- title: Events
   url: /elements/
-- title: Blog
+- title: Resources
   url: /blog/
-- title: Categories
+- title: Members
   url: /categories/
-- title: Search
+- title: Join
   url: /search/
 #- title: Fork Alembic
 #  url: https://github.com/daviddarnes/alembic
