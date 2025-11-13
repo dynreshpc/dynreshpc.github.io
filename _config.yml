@@ -94,7 +94,7 @@ defaults:
 encoding: utf-8 # Make sure the encoding is right
 lang: en-US # Set the site language
 title: "DynResHPC" # Site name or title, also used in jekyll-seo-tag
-logo: "/assets/logos/logo.svg" # Site logo, also used in jekyll-seo-tag
+logo: "/assets/logos/dynres-logo.jpg" # Site logo, also used in jekyll-seo-tag
 description: "The Dynamic Resources for HPC Consortium is a collaborative group focused on advancing dynamic resource management, malleable applications, and adaptive scheduling in High-Performance Computing (HPC) systems." # Site description and default description, also used in jekyll-seo-tag
 url: "https://dynreshpc.github.io" # Site url, also used in jekyll-seo-tag
 baseurl: ""
@@ -130,7 +130,8 @@ navigation_header:
 - title: Test
   url: /categories/
 - title: Board
-  url: /search/
+  url: /board/
+  # url: /search/
 - title: Mailing List
   url: https://groups.google.com/u/0/g/dynres
 
