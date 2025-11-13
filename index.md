@@ -3,13 +3,15 @@ title: Dynamic Resources for HPC Consortium
 feature_text: |
   ## DynResHPC
   Dynamic Resources for HPC Consortium
-feature_image: "https://picsum.photos/1300/400?image=989"
+feature_image: "https://picsum.photos/1300/400?image=17"
 excerpt: "The Dynamic Resources for HPC Consortium is a collaborative group focused on advancing dynamic resource management, malleable applications, and adaptive scheduling in High-Performance Computing (HPC) systems."
 ---
 
 Alembic is a starting point for [Jekyll](https://jekyllrb.com/) projects. Rather than starting from scratch, this boilerplate is designed to get rolling immediately. Install it, configure it, tweak it, push it.
 
 <img src="https://github.com/dynreshpc/dynreshpc.github.io/blob/main/assets/images/group-picture-isc25.jpg" alt="Group picture at ISC25">
+
+![Alt text](https://github.com/dynreshpc/dynreshpc.github.io/blob/main/assets/images/group-picture-isc25.jpg)
 
 <figure>
   <img src="/assets/images/group-picture-isc25.jpg" alt="Group picture at ISC25">
