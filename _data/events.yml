@@ -2,18 +2,23 @@
   events:
     - title: "SC25"
       date: "November 20th"
-      time: "2:00 PM"
-      location: "Room 122"
-      description: "Join us at SC25 for our annual consortium meeting"
-      link: "#"
+      #location: "Room 122"
+      description: "Annual consortium meeting"
+      #link: "#"
 
 - year: 2024
   events:
-    - title: "ISC24"
-      date: "June 15th"
-      time: "10:00 AM"
-      location: "Virtual"
-      description: "International Supercomputing Conference"
+    - title: "SC24"
+      date: "November 20th"
+      #location: "Room 122"
+      description: "Kick-off consortium meeting"
+      #link: "#"
+
+- year: 2024 (pre-consortium)
+  events:
+    - title: "Euro-Par 2024"
+      date: "August 26th"
+      description: "DynResHPC Workshop at Euro-Par"
       link: "#"
     - title: "Event Name"
       date: "May 10th"
@@ -21,3 +26,17 @@
       location: "Location"
       description: "Event description here"
       link: "#"
+    - title: "ISC24"
+      date: "June 15th"
+      time: "10:00 AM"
+      location: "Virtual"
+      description: "International Supercomputing Conference"
+      link: "#"
+
+- year: 2023 (pre-consortium)
+  events:
+    - title: "SC23"
+      date: "November 20th"
+      #location: "Room 122"
+      description: "Kick-off consortium meeting"
+      #link: "#"
