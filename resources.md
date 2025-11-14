@@ -1,9 +1,9 @@
 ---
-title: About DynResHPC
+title: Resources
 feature_image: "https://picsum.photos/1300/400?image=16"
 ---
 
-## Meeting Minutes
+## Meetings Minutes
 
 https://etherpad.hca.bsc.es/p/dynres-2024-11-20
 https://etherpad.hca.bsc.es/p/dynres-2024-12-16
