@@ -123,10 +123,11 @@ favicons: # Favicons are also used in the manifest file. Syntax is 'size: path'
 navigation_header:
 #- title: Home
 #  url: /
-- title: About DynResHPC
+- title: About
   url: /about/
 - title: Events
-  url: /elements/
+  url: /events/
+  #url: /elements/
 - title: Resources
   #url: /blog/
   #- title: Board
