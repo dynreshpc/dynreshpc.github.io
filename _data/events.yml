@@ -1,0 +1,23 @@
+- year: 2025
+  events:
+    - title: "SC25"
+      date: "November 20th"
+      time: "2:00 PM"
+      location: "Room 122"
+      description: "Join us at SC25 for our annual consortium meeting"
+      link: "#"
+
+- year: 2024
+  events:
+    - title: "ISC24"
+      date: "June 15th"
+      time: "10:00 AM"
+      location: "Virtual"
+      description: "International Supercomputing Conference"
+      link: "#"
+    - title: "Event Name"
+      date: "May 10th"
+      time: "3:00 PM"
+      location: "Location"
+      description: "Event description here"
+      link: "#"

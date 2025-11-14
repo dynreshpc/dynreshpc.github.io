@@ -131,7 +131,8 @@ navigation_header:
 - title: Resources
   #url: /blog/
   #- title: Board
-  url: /board/
+  #url: /board/
+  url: /resources/
   # url: /search/
 - title: Mailing List
   url: https://groups.google.com/u/0/g/dynres
