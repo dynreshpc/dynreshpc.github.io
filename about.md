@@ -18,7 +18,7 @@ feature_image: "https://picsum.photos/1300/400?image=16"
 {% include headshot.html image="https://picsum.photos/600/800?image=49" caption="Chair" width="200" height="200" %}
 {% include headshot.html image="https://picsum.photos/600/800?image=49" caption="Documentation Chair" width="200" height="200" %}
 {% include headshot.html image="https://picsum.photos/600/800?image=49" caption="Website Chair" width="200" height="200" %}
-{% include headshot.html image="https://picsum.photos/600/800?image=49" caption="Member" width="200" height="200"}
+{% include headshot.html image="https://picsum.photos/600/800?image=49" caption="Member" width="200" height="200" %}
 
 ## DynResHPC FAQ
 
