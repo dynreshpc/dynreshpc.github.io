@@ -9,7 +9,7 @@ feature_image: "https://picsum.photos/1300/400?image=16"
 {% include headshot.html image="https://picsum.photos/600/800?image=49" caption="Co-chair <br> Martin Schreiber (UGA)" width="200" height="200" %}
 {% include headshot.html image="https://picsum.photos/600/800?image=49" caption="Communication Officer <br> Iker Martín-Álvarez (UJI)" width="200" height="200" %}
 
-## Steering Committee
+## Advisory Board
 
 {% include headshot.html image="https://picsum.photos/600/800?image=49" caption="Martin Schultz (TUM) - <em>President</em>" width="200" height="200" %}
 {% include headshot.html image="https://picsum.photos/600/800?image=49" caption="Antonio J. Peña (BSC) - <em>Vice President</em>" width="200" height="200" %}
