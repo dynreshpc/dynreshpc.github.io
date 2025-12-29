@@ -9,12 +9,10 @@ aside: true
 
 <!--{% include figure.html image="/assets/logos/full-logo.png" %}-->
 
-<!--The Dynamic Resources for HPC Consortium is a collaborative group focused on advancing dynamic resource management, malleable applications, and adaptive scheduling in High-Performance Computing (HPC) systems.-->
-
-<!-- <hr> <!-- Horizontal line added here -->
-
 ### Memories from the Annual Meeting at SC25
 {% include figure.html image="/assets/images/group-picture-sc25.jpg" caption="DynResHPC group picture at SC25" %}
+
+<hr> <!-- Horizontal line added here -->
 
 ### DynResHPC FAQ
 
@@ -33,7 +31,7 @@ DynResHPC also has organizational members, who are committed to providing resour
 Participants in DynResHPC primarily come from industry, academia, national labs and institutes, and HPC centers from around the world.
 
 #### DynResHPC activities.
-If you would like to participate, please sign up to the mailing list: Join our <a href=\"https://groups.google.com/g/dynres\" target=\"_blank\" rel=\"noopener noreferrer\">community</a>.
+If you would like to participate, please sign up to the mailing list: Join our <a href="https://groups.google.com/g/dynres" target="_blank" rel="noopener noreferrer">community</a>.
 
 #### What does DynResHPC do?
 DynResHPC brings together experts and practitioners as a community, in events at major HPC-related conferences, standalone workshops, active technical working groups, and shares learnings through related sites.
