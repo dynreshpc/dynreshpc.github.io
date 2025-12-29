@@ -96,7 +96,7 @@ lang: en-US # Set the site language
 title: "DynResHPC" # Site name or title, also used in jekyll-seo-tag
 logo: "/assets/logos/dynres-logo-trans.png" # Site logo, also used in jekyll-seo-tag
 #description: "The Dynamic Resources for HPC Consortium is a collaborative group focused on advancing dynamic resource management, malleable applications, and adaptive scheduling in High-Performance Computing (HPC) systems." # Site description and default description, also used in jekyll-seo-tag
-description: "Dynamic Resources for HPC Consortium advances dynamic resource management, malleable applications, and adaptive scheduling for High‑Performance Computing. Join our community at http://groups.google.com/g/dynres and attend our virtual meetings on the 3rd Monday of each month at 5:00 PM CET."
+description: "Dynamic Resources for HPC Consortium advances dynamic resource management, malleable applications, and adaptive scheduling for High‑Performance Computing. <br> Join our <a href=http://groups.google.com/g/dynres>community</a> and attend our virtual meetings on the <strong>3rd Monday of each month at 5:00 PM CET</strong>."
 url: "https://dynreshpc.github.io" # Site url, also used in jekyll-seo-tag
 baseurl: ""
 repo: "https://github.com/dynreshpc/dynreshpc.github.io"
