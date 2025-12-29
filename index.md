@@ -14,3 +14,6 @@ aside: true
 
 <hr> <!-- Horizontal line added here -->
 
+##Annual Meeting at SC25
+{% include figure.html image="/assets/images/group-picture-sc25.jpg" caption="DynResHPC group picture at SC25" %}
+
