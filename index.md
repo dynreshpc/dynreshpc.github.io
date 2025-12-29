@@ -1,10 +1,10 @@
 ---
-#title: Dynamic Resources for HPC Consortium
-#feature_text: |
+title: Dynamic Resources for HPC Consortium
+feature_text: |
 #  ## DynResHPC
 #  Dynamic Resources for HPC Consortium
 #feature_image: "https://picsum.photos/1300/400?image=16"
-#excerpt: "Dynamic Resources for HPC Consortium advances dynamic resource management, malleable applications, and adaptive scheduling for High‑Performance Computing. Join our community at groups.google.com/g/dynres and attend our virtual meetings on the 3rd Monday of each month at 5:00 PM CET."
+excerpt: "Dynamic Resources for HPC Consortium advances dynamic resource management, malleable applications, and adaptive scheduling for High‑Performance Computing. Join our community at groups.google.com/g/dynres and attend our virtual meetings on the 3rd Monday of each month at 5:00 PM CET."
 aside: true
 ---
 
