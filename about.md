@@ -3,6 +3,13 @@ title: About DynResHPC
 feature_image: "https://picsum.photos/1300/400?image=16"
 ---
 
+The Consortium is governed by:
+<ul>
+<li>The General Assembly, composed of all members; </li>
+<li>an Advisory Board, composed of at most one representative per participating institution;</li>
+<li>a Leadership Board, responsible for executing the Consortium’s guidelines and decisions.</li>
+</ul>
+
 ## Leadership Board
 
 {% include headshot.html image="/assets/headshots/siserte.jpg" caption="Co-chair <br> Sergio Iserte (BSC)" width="200" height="200" %}
