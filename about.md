@@ -3,23 +3,20 @@ title: About DynResHPC
 feature_image: "https://picsum.photos/1300/400?image=16"
 ---
 
-{% include figure.html image="/assets/images/group-picture-sc24.jpg" caption="DynResHPC group picture at SC24" %}
-
-{% include figure.html image="/assets/images/group-picture-isc25.jpg" caption="DynResHPC group picture at ISC25" %}
-
 ## Leadership Board
 
-{% include headshot.html image="https://picsum.photos/600/800?image=49" caption="President" width="200" height="200" %}
-{% include headshot.html image="https://picsum.photos/600/800?image=49" caption="Vice-President" width="200" height="200" %}
-{% include headshot.html image="https://picsum.photos/600/800?image=49" caption="Secretary" width="200" height="200" %}
-{% include headshot.html image="/assets/headshots/siserte.jpg" caption="Testing <br> Sergio Iserte (BSC)" width="200" height="200" %}
+{% include headshot.html image="/assets/headshots/siserte.jpg" caption="Co-chair <br> Sergio Iserte (BSC)" width="200" height="200" %}
+{% include headshot.html image="https://picsum.photos/600/800?image=49" caption="Co-chair <br> Martin Schreiber (UGA)" width="200" height="200" %}
+{% include headshot.html image="https://picsum.photos/600/800?image=49" caption="Communication Officer <br> Iker Martín-Álvarez (UJI)" width="200" height="200" %}
 
 ## Steering Committee
 
-{% include headshot.html image="https://picsum.photos/600/800?image=49" caption="Chair" width="200" height="200" %}
-{% include headshot.html image="https://picsum.photos/600/800?image=49" caption="Member" width="200" height="200" %}
-{% include headshot.html image="https://picsum.photos/600/800?image=49" caption="Member" width="200" height="200" %}
-{% include headshot.html image="https://picsum.photos/600/800?image=49" caption="Member" width="200" height="200" %}
+{% include headshot.html image="https://picsum.photos/600/800?image=49" caption="Martin Schultz (TUM) - <em>President</em>" width="200" height="200" %}
+{% include headshot.html image="https://picsum.photos/600/800?image=49" caption="Antonio J. Peña (BSC) - <em>Vice President</em>" width="200" height="200" %}
+{% include headshot.html image="https://picsum.photos/600/800?image=49" caption="Thomas Gruber (NHR@FAU)" width="200" height="200" %}
+{% include headshot.html image="https://picsum.photos/600/800?image=49" caption="Ralph Castain (PMIx)" width="200" height="200" %}
+{% include headshot.html image="https://picsum.photos/600/800?image=49" caption="Jesús Carretero (UC3M)" width="200" height="200" %}
+{% include headshot.html image="https://picsum.photos/600/800?image=49" caption="José I. Aliaga (UJI)" width="200" height="200" %}
 
 ## DynResHPC FAQ
 
@@ -45,3 +42,7 @@ DynResHPC brings together experts and practitioners as a community, in events at
 
 ### What events does DynResHPC hold?
 See our Events page for a list of upcoming and past events. Please contact us if you would be interested in holding an DynResHPC event in your area.
+
+{% include figure.html image="/assets/images/group-picture-sc24.jpg" caption="DynResHPC group picture at SC24" %}
+
+{% include figure.html image="/assets/images/group-picture-isc25.jpg" caption="DynResHPC group picture at ISC25" %}
