@@ -4,11 +4,26 @@ feature_image: "https://picsum.photos/1300/400?image=16"
 ---
 
 The Consortium is governed by:
-<ul>
-<li>The General Assembly, composed of all members; </li>
-<li>an Advisory Board, composed of at most one representative per participating institution;</li>
-<li>a Leadership Board, responsible for executing the Consortium’s guidelines and decisions.</li>
-</ul>
+
+<div style="display:flex;flex-wrap:wrap;gap:1rem;margin:1rem 0;">
+  <div style="flex:1 1 220px;border:1px solid #e2e8f0;border-radius:8px;padding:1rem;box-shadow:0 1px 2px rgba(0,0,0,0.05);">
+    <div style="font-size:1.5rem">👥</div>
+    <h4 style="margin:.25rem 0">General Assembly</h4>
+    <p style="margin:0">Composed of all members; primary decision‑making body.</p>
+  </div>
+
+  <div style="flex:1 1 220px;border:1px solid #e2e8f0;border-radius:8px;padding:1rem;box-shadow:0 1px 2px rgba(0,0,0,0.05);">
+    <div style="font-size:1.5rem">🧭</div>
+    <h4 style="margin:.25rem 0">Advisory Board</h4>
+    <p style="margin:0">Up to one representative per participating institution, providing guidance.</p>
+  </div>
+
+  <div style="flex:1 1 220px;border:1px solid #e2e8f0;border-radius:8px;padding:1rem;box-shadow:0 1px 2px rgba(0,0,0,0.05);">
+    <div style="font-size:1.5rem">⚙️</div>
+    <h4 style="margin:.25rem 0">Leadership Board</h4>
+    <p style="margin:0">Executes the Consortium’s guidelines and decisions.</p>
+  </div>
+</div>
 
 ## Leadership Board
 
