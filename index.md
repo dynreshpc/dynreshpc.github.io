@@ -2,7 +2,7 @@
 #title: Dynamic Resources for HPC Consortium
 feature_text: |
   ## DynResHPC
-  Dynamic Resources for HPC Consortium
+  ### Dynamic Resources for HPC Consortium
 #feature_image: "https://picsum.photos/1300/400?image=16"
 aside: true
 ---
