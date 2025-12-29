@@ -65,6 +65,10 @@ DynResHPC brings together experts and practitioners as a community, in events at
 ### What events does DynResHPC hold?
 See our Events page for a list of upcoming and past events. Please contact us if you would be interested in holding an DynResHPC event in your area.
 
+{% include figure.html image="/assets/images/group-picture-sc24.jpg" caption="DynResHPC group picture at SC24" %}
+
+{% include figure.html image="/assets/images/group-picture-isc25.jpg" caption="DynResHPC group picture at ISC25" %}
+
 ## Consortium Statutes
 
   <article>
@@ -144,9 +148,3 @@ See our Events page for a list of upcoming and past events. Please contact us if
       Assembly.
     </p>
   </article>
-</section>
-
-
-{% include figure.html image="/assets/images/group-picture-sc24.jpg" caption="DynResHPC group picture at SC24" %}
-
-{% include figure.html image="/assets/images/group-picture-isc25.jpg" caption="DynResHPC group picture at ISC25" %}
