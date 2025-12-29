@@ -65,6 +65,88 @@ DynResHPC brings together experts and practitioners as a community, in events at
 ### What events does DynResHPC hold?
 See our Events page for a list of upcoming and past events. Please contact us if you would be interested in holding an DynResHPC event in your area.
 
+## Consortium Statutes
+
+  <article>
+    <h3>1. Purpose</h3>
+    <p>
+      The Consortium aims to foster collaboration, knowledge exchange, and joint
+      initiatives within its defined scientific and technical scope.
+    </p>
+  </article>
+
+  <article>
+    <h3>2. Membership</h3>
+    <p>
+      Membership is open to individuals and institutions aligned with the
+      Consortium’s objectives. Members are expected to contribute actively to
+      the Consortium’s activities.
+    </p>
+  </article>
+
+  <article>
+    <h3>3. Governance Structure</h3>
+    <ul>
+      <li><strong>General Assembly:</strong> composed of all members.</li>
+      <li><strong>Advisory Board:</strong> composed of at most one representative per participating institution.</li>
+      <li><strong>Leadership Board:</strong> responsible for implementing decisions and guidelines of the General Assembly.</li>
+    </ul>
+  </article>
+
+  <article>
+    <h3>4. Advisory Board</h3>
+    <p>
+      The Advisory Board provides strategic input, institutional perspectives,
+      and recommendations to the Consortium. It supports long-term planning but
+      does not manage day-to-day operations.
+    </p>
+    <p>
+      Each represented institution must attend at least <strong>50%</strong> of
+      the General Assembly meetings per year to maintain its seat on the
+      Advisory Board.
+    </p>
+  </article>
+
+  <article>
+    <h3>5. Leadership Board</h3>
+    <p>
+      The Leadership Board manages operational and organizational activities of
+      the Consortium, in alignment with guidance from the General Assembly and
+      informed by the Advisory Board.
+    </p>
+    <p>
+      It consists of <strong>3–4 members</strong> appointed or elected by the
+      General Assembly.
+    </p>
+  </article>
+
+  <article>
+    <h3>6. Meetings and Decision-Making</h3>
+    <p>
+      The General Assembly meets monthly. The Advisory Board and Leadership Board
+      meet as needed. Decisions are made by consensus whenever possible, or
+      otherwise by a simple majority vote.
+    </p>
+  </article>
+
+  <article>
+    <h3>7. Working Groups</h3>
+    <p>
+      The Consortium may create temporary or permanent working groups to address
+      specific tasks, initiatives, or research themes.
+    </p>
+  </article>
+
+  <article>
+    <h3>8. Amendments</h3>
+    <p>
+      These statutes may be amended by simple majority vote of the General
+      Assembly.
+    </p>
+  </article>
+</section>
+
+
 {% include figure.html image="/assets/images/group-picture-sc24.jpg" caption="DynResHPC group picture at SC24" %}
 
 {% include figure.html image="/assets/images/group-picture-isc25.jpg" caption="DynResHPC group picture at ISC25" %}
