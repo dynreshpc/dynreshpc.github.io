@@ -26,7 +26,7 @@
     - title: "Euro-Par 2024"
       date: "August 26th"
       description: "(Pre-consortium) 3rd DynResHPC Workshop at Euro-Par"
-      link: "#"
+      link: "https://eventos.uc3m.es/112131/"
 
 - year: 2023
   events:
@@ -62,4 +62,5 @@
       date: "June"
       #location: "Room 122"
       description: "(Pre-consortium) 1st HPCMALL Workshop"
+
       #link: "#"
