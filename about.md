@@ -29,7 +29,7 @@ The Consortium is governed by:
 
 {% include headshot.html image="/assets/headshots/siserte.jpg" caption="Co-chair <br> Sergio Iserte (BSC)" width="200" height="200" %}
 {% include headshot.html image="https://picsum.photos/600/800?image=49" caption="Co-chair <br> Martin Schreiber (UGA)" width="200" height="200" %}
-{% include headshot.html image="https://picsum.photos/600/800?image=49" caption="Communication Officer <br> Iker Martín-Álvarez (UJI)" width="200" height="200" %}
+{% include headshot.html image="/assets/headshots/martini.jpeg" caption="Communication Officer <br> Iker Martín-Álvarez (UJI)" width="200" height="200" %}
 
 ## Advisory Board
 
@@ -38,7 +38,7 @@ The Consortium is governed by:
 {% include headshot.html image="https://picsum.photos/600/800?image=49" caption="Thomas Gruber (NHR@FAU)" width="200" height="200" %}
 {% include headshot.html image="https://picsum.photos/600/800?image=49" caption="Ralph Castain (PMIx)" width="200" height="200" %}
 {% include headshot.html image="https://picsum.photos/600/800?image=49" caption="Jesús Carretero (UC3M)" width="200" height="200" %}
-{% include headshot.html image="https://picsum.photos/600/800?image=49" caption="José I. Aliaga (UJI)" width="200" height="200" %}
+{% include headshot.html image="/assets/headshots/jaliaga.jpg" caption="José I. Aliaga (UJI)" width="200" height="200" %}
 
 ## Consortium Statutes
 
