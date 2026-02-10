@@ -7,10 +7,9 @@ The Consortium is going to meet in the following in person event:
 <div class="timeline">
   {% for year_group in site.data.events %}
     <div class="timeline-year">
-      <h2>{{ year_group.year }}</h2>
       <div class="timeline-events">
         {% for event in year_group.events %}
-          {% if event.id == "grenoble-2026" %}
+          {% if event.id == "2026-grenoble" %}
             <div class="timeline-event">
               <div class="timeline-dot"></div>
               <div class="timeline-content">
@@ -63,14 +62,6 @@ The Consortium is governed by:
 ## Advisory Board
 
 The advisory board is being decided, and will be publish after being elected.
-<!--
-{% include headshot.html image="https://picsum.photos/600/800?image=49" caption="Martin Schultz (TUM) - <em>President</em>" width="200" height="200" %}
-{% include headshot.html image="https://picsum.photos/600/800?image=49" caption="Antonio J. Peña (BSC) - <em>Vice President</em>" width="200" height="200" %}
-{% include headshot.html image="https://picsum.photos/600/800?image=49" caption="Thomas Gruber (NHR@FAU)" width="200" height="200" %}
-{% include headshot.html image="https://picsum.photos/600/800?image=49" caption="Ralph Castain (PMIx)" width="200" height="200" %}
-{% include headshot.html image="https://picsum.photos/600/800?image=49" caption="Jesús Carretero (UC3M)" width="200" height="200" %}
-{% include headshot.html image="/assets/headshots/jaliaga.jpg" caption="José I. Aliaga (UJI)" width="200" height="200" %}
--->
 
 ## Consortium Statutes
 <article>
@@ -213,7 +204,5 @@ The advisory board is being decided, and will be publish after being elected.
   </p>
   <p>
     3. Adopted amendments shall enter into force immediately unless otherwise specified by the amendment.
-  </p>
-</article>
   </p>
 </article>
