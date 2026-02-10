@@ -9,6 +9,35 @@ aside: true
 
 <!--{% include figure.html image="/assets/logos/full-logo.png" %}-->
 
+### The next meeting at UGA, the center of dynamic resources
+The Consortium is going to meet in the following in person event:
+<div class="timeline">
+  {% for year_group in site.data.events %}
+    <div class="timeline-year">
+      <div class="timeline-events">
+        {% for event in year_group.events %}
+          {% if event.id == "2026-grenoble" %}
+            <div class="timeline-event">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <h3>{{ event.title }}</h3>
+                <p class="event-date">
+                  <strong>{{ event.date }}</strong> at {{ event.time }}
+                </p>
+                <p class="event-location">📍 {{ event.location }}</p>
+                <p>{{ event.description }}</p>
+                {% if event.link %}
+                  <a href="{{ event.link }}" class="btn">Learn More</a>
+                {% endif %}
+              </div>
+            </div>
+          {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+  {% endfor %}
+</div>
+
 ### Memories from the Annual Meeting at SC25
 {% include figure.html image="/assets/images/group-picture-sc25.jpg" caption="DynResHPC group picture at SC25" %}
 
