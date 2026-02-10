@@ -62,6 +62,11 @@
 
 - year: 2022
   events:
+    - title: "SC22"
+      date: "November 16th"
+      location: "Denver"
+      description: "(Pre-consortium) Birds of a Feather"
+      link: "https://admire-eurohpc.eu/events/sc22-bof-enabling-i-o-and-computation-malleability-in-high-performance-computing/"
     - title: "Independent Event"
       date: "September 5th"
       location: "Technical University of Munich"
