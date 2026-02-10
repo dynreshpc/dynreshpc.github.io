@@ -27,13 +27,15 @@ The Consortium is governed by:
 
 ## Leadership Board
 
+<div class="board-grid">
 {% include headshot.html image="/assets/headshots/siserte.jpg" caption="Co-chair <br> Sergio Iserte (BSC)" width="200" height="200" %}
 {% include headshot.html image="/assets/headshots/martin_sc.jpeg" caption="Co-chair <br> Martin Schreiber (UGA)" width="200" height="200" %}
 {% include headshot.html image="/assets/headshots/martini.jpeg" caption="Communication Officer <br> Iker Martín-Álvarez (UJI)" width="200" height="200" %}
+</div>
 
 ## Advisory Board
 
-The advisory board is being decided, and will be publish after being elected.
+The advisory board is being selected and will be announced after the election.
 
 ## Consortium Statutes
 <article>
