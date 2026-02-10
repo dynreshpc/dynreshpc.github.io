@@ -5,6 +5,7 @@
       location: "Université Grenoble Alpes"
       description: "5th Workshop on Dynamic Resources in HPC and monthly consortium meeting"
       link: "https://dynreshpc2026.sciencesconf.org/"
+      id: "2026-grenoble"
 - year: 2025
   events:
     - title: "SC25"
@@ -71,4 +72,5 @@
       location: "Hamburg"
       description: "(Pre-consortium) 1st HPCMALL Workshop"
       link: "https://app.swapcard.com/event/isc-high-performance-2022/planning/UGxhbm5pbmdfODYxMTA3"
+
 
