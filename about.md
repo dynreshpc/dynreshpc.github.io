@@ -3,34 +3,6 @@ title: About DynResHPC
 feature_image: "https://picsum.photos/1300/400?image=16"
 ---
 
-The Consortium is going to meet in the following in person event:
-<div class="timeline">
-  {% for year_group in site.data.events %}
-    <div class="timeline-year">
-      <div class="timeline-events">
-        {% for event in year_group.events %}
-          {% if event.id == "2026-grenoble" %}
-            <div class="timeline-event">
-              <div class="timeline-dot"></div>
-              <div class="timeline-content">
-                <h3>{{ event.title }}</h3>
-                <p class="event-date">
-                  <strong>{{ event.date }}</strong> at {{ event.time }}
-                </p>
-                <p class="event-location">📍 {{ event.location }}</p>
-                <p>{{ event.description }}</p>
-                {% if event.link %}
-                  <a href="{{ event.link }}" class="btn">Learn More</a>
-                {% endif %}
-              </div>
-            </div>
-          {% endif %}
-        {% endfor %}
-      </div>
-    </div>
-  {% endfor %}
-</div>
-
 The Consortium is governed by:
 
 <div style="display:flex;flex-wrap:wrap;gap:1rem;margin:1rem 0;">
