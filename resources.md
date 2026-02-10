@@ -3,6 +3,19 @@ title: Resources
 feature_image: "https://picsum.photos/1300/400?image=16"
 ---
 
+## Publications
+<p>
+  The DynRes consortium maintains a shared Zotero group that collects publications
+  by consortium members related to dynamic resource management in HPC systems.
+  This bibliography is continuously updated and serves as a reference list of
+  relevant scientific outputs.
+</p>
+<p>
+  <a href="https://www.zotero.org/groups/5874065/dynres_consortium" target="_blank" rel="noopener">
+    DynRes Consortium Zotero Group
+  </a>
+</p>
+
 ## Group Pictures
 
 {% include figure.html image="/assets/images/group-picture-sc25.jpg" caption="DynResHPC group picture at SC25" %}
