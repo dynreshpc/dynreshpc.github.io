@@ -9,7 +9,7 @@ aside: true
 
 <!--{% include figure.html image="/assets/logos/full-logo.png" %}-->
 
-### The next meeting at UGA, the center of dynamic resources
+### The consortium will meet at UGA for its 5th workshop on dynamic resources
 The Consortium is going to meet in the following in person event:
 <div class="timeline">
   {% for year_group in site.data.events %}

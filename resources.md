@@ -18,6 +18,8 @@ feature_image: "https://picsum.photos/1300/400?image=16"
 
 ## Group Pictures
 
+{% include figure.html image="/assets/images/group-picture-dynwrk5.jpg" caption="DynResHPC group picture for the 5th DynResHPC workshop in 2026" %}
+
 {% include figure.html image="/assets/images/group-picture-sc25.jpg" caption="DynResHPC group picture at SC25" %}
 
 {% include figure.html image="/assets/images/group-picture-isc25.jpg" caption="DynResHPC group picture at ISC25" %}
