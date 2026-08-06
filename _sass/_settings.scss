@@ -1,32 +1,35 @@
 // Background colours
 $backgroundColour: #ffffff !default;
 $codeBackgroundColour: #fafafa !default;
-$featureBackgroundColour: #f9fafa !default;
-$accentColour: #05bf85 !default;
+$featureBackgroundColour: #fff4e8 !default;
+$brandOrange: #f98d1f !default;
+$brandOrangeLight: #fff4e8 !default;
+$brandOrangeDark: #d97706 !default;
+$accentColour: $brandOrange !default;
 
 // Text colours
 $headingColour: #242e2b !default;
 $bodyColour: #384743 !default;
-$linkColour: #05bf85 !default;
-$hoverColour: #008000 !default;
+$linkColour: #c96f0a !default;
+$hoverColour: $brandOrangeDark !default;
 $focusColour: #fa407a !default;
 $captionColour: #a8adac !default;
 $white: #ffffff !default;
 
 // Typography
 $bodytype: (
-  font-family: "Georgia, serif",
+  font-family: '"Source Sans 3", sans-serif',
   regular: 400,
   bold: 700,
   italic: italic,
-  cap-height: 0.75
+  cap-height: 0.66
 ) !default;
 
 $headingtype: (
-  font-family: '"Merriweather", serif',
+  font-family: '"Source Sans 3", sans-serif',
   regular: 400,
   bold: 700,
-  cap-height: 0.75
+  cap-height: 0.66
 ) !default;
 
 $monospacetype: (

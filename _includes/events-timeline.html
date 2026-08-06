@@ -1,0 +1,65 @@
+{% assign today = site.time | date: "%Y-%m-%d" %}
+
+{% assign has_future = false %}
+{% for year_group in site.data.events %}
+  {% for event in year_group.events %}
+    {% if event.date_iso and event.date_iso >= today %}
+      {% assign has_future = true %}
+    {% endif %}
+  {% endfor %}
+{% endfor %}
+
+<div class="timeline">
+  <section class="timeline-section">
+    <h2>Future events</h2>
+    {% unless has_future %}
+      <p>No upcoming events listed.</p>
+    {% endunless %}
+    {% if has_future %}
+      {% for year_group in site.data.events %}
+        {% assign year_has_future = false %}
+        {% for event in year_group.events %}
+          {% if event.date_iso and event.date_iso >= today %}
+            {% assign year_has_future = true %}
+          {% endif %}
+        {% endfor %}
+        {% if year_has_future %}
+          <div class="timeline-year">
+            <h3>{{ year_group.year }}</h3>
+            <div class="timeline-events">
+              {% for event in year_group.events %}
+                {% if event.date_iso and event.date_iso >= today %}
+                  {% include event-timeline-item.html event=event %}
+                {% endif %}
+              {% endfor %}
+            </div>
+          </div>
+        {% endif %}
+      {% endfor %}
+    {% endif %}
+  </section>
+
+  <section class="timeline-section">
+    <h2>Past events</h2>
+    {% for year_group in site.data.events %}
+      {% assign year_has_past = false %}
+      {% for event in year_group.events %}
+        {% unless event.date_iso and event.date_iso >= today %}
+          {% assign year_has_past = true %}
+        {% endunless %}
+      {% endfor %}
+      {% if year_has_past %}
+        <div class="timeline-year">
+          <h3>{{ year_group.year }}</h3>
+          <div class="timeline-events">
+            {% for event in year_group.events %}
+              {% unless event.date_iso and event.date_iso >= today %}
+                {% include event-timeline-item.html event=event %}
+              {% endunless %}
+            {% endfor %}
+          </div>
+        </div>
+      {% endif %}
+    {% endfor %}
+  </section>
+</div>

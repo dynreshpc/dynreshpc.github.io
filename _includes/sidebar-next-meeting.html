@@ -1,0 +1,13 @@
+<section class="sidebar-card sidebar-card--meeting">
+  <h3>Next meeting</h3>
+  <p class="sidebar-card__title">{{ site.monthly_meeting.title | default: "Monthly consortium meeting" }}</p>
+  <p class="sidebar-card__date">
+    <strong id="next-meeting-date" class="js-next-meeting-date">Calculating next date…</strong>
+  </p>
+  <p class="sidebar-card__meta">
+    {{ site.monthly_meeting.schedule | default: "3rd Monday of each month" }} · {{ site.monthly_meeting.time | default: "5:00 PM CET" }}
+  </p>
+  <p>
+    <a href="{{ site.monthly_meeting.mailing_list | default: 'https://groups.google.com/g/dynres' }}" target="_blank" rel="noopener noreferrer">Mailing list</a>
+  </p>
+</section>

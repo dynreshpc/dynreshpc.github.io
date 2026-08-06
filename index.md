@@ -1,49 +1,20 @@
 ---
-#title: Dynamic Resources for HPC Consortium
-feature_text: |
-  ## DynResHPC
-  ### Dynamic Resources for HPC Consortium
-#feature_image: "https://picsum.photos/1300/400?image=16"
+title: Dynamic Resources for HPC Consortium
+description: The Dynamic Resources for HPC Consortium advances dynamic resource management, malleable applications, and adaptive scheduling in High-Performance Computing systems.
 aside: true
 ---
 
-<!--{% include figure.html image="/assets/logos/full-logo.png" %}-->
+### What we do
 
-### The consortium will meet at UGA for its 5th workshop on dynamic resources
-The Consortium is going to meet in the following in person event:
-<div class="timeline">
-  {% for year_group in site.data.events %}
-    <div class="timeline-year">
-      <div class="timeline-events">
-        {% for event in year_group.events %}
-          {% if event.id == "2026-grenoble" %}
-            <div class="timeline-event">
-              <div class="timeline-dot"></div>
-              <div class="timeline-content">
-                <h3>{{ event.title }}</h3>
-                <p class="event-date">
-                  <strong>{{ event.date }}</strong> at {{ event.time }}
-                </p>
-                <p class="event-location">📍 {{ event.location }}</p>
-                <p>{{ event.description }}</p>
-                {% if event.link %}
-                  <a href="{{ event.link }}" class="btn">Learn More</a>
-                {% endif %}
-              </div>
-            </div>
-          {% endif %}
-        {% endfor %}
-      </div>
-    </div>
-  {% endfor %}
-</div>
+The Dynamic Resources for HPC Consortium advances dynamic resource management, malleable applications, and adaptive scheduling for High-Performance Computing. We bring together experts and practitioners from industry, academia, national labs, and HPC centers worldwide through monthly meetings, workshops at major conferences, and technical working groups.
 
-### Memories from the Annual Meeting at SC25
-{% include figure.html image="/assets/images/group-picture-sc25.jpg" caption="DynResHPC group picture at SC25" %}
+DynResHPC shares knowledge via events, joint initiatives, and community resources. Join our community and attend virtual meetings on the **3rd Monday of each month at 5:00 PM CET**. If you would like to participate, see [how to join](/membership/) or subscribe to our [mailing list](https://groups.google.com/g/dynres). Upcoming and past events are listed in the sidebar and on the [News](/news/) page.
 
-<hr> <!-- Horizontal line added here -->
+### Frequently asked questions
 
-### DynResHPC FAQ
+#### What is Dynamic Resource Management?
+
+Dynamic Resource Management (DRM) is primarily about how **HPC clusters and supercomputers** assign compute resources to jobs. In a typical batch system (for example Slurm or similar resource managers), an application receives a fixed set of nodes, cores, or GPUs at submission time and keeps them until it finishes. DRM instead allows those allocations to **grow or shrink while the job is running**, so malleable applications and adaptive schedulers can improve throughput, utilization, and energy use on shared clusters.
 
 #### What is DynResHPC?
 
@@ -54,16 +25,13 @@ The consortium originated from a series of informal discussions and small-scale 
 During SC24, we held the first official meeting of the consortium, marking the beginning of a coordinated community effort. Since then, we have been meeting monthly to share progress, exchange ideas, and plan joint activities.
 
 #### Who is part of DynResHPC?
-Anyone interested in dynamic resource management in HPC in any of its branches such as scheduling, runtimes, applications, API, monitoring, simulators, modeling...
-DynResHPC is governed and led by an steering committee. 
-DynResHPC also has organizational members, who are committed to providing resources to help support DynResHPC (staff time, hosting meetings, etc.)
-Participants in DynResHPC primarily come from industry, academia, national labs and institutes, and HPC centers from around the world.
 
-#### DynResHPC activities.
-If you would like to participate, please sign up to the mailing list: Join our <a href="https://groups.google.com/g/dynres" target="_blank" rel="noopener noreferrer">community</a>.
+Anyone interested in dynamic resource management in HPC — scheduling, runtimes, applications, APIs, monitoring, simulators, modeling, and related topics. Participants come from industry, academia, national labs, and HPC centers around the world.
 
-#### What does DynResHPC do?
-DynResHPC brings together experts and practitioners as a community, in events at major HPC-related conferences, standalone workshops, active technical working groups, and shares learnings through related sites.
+#### What events and meetings does DynResHPC hold?
 
-#### What events does DynResHPC hold?
-See our Events page for a list of upcoming and past events. Please contact us if you would be interested in holding an DynResHPC event in your area.
+We hold **monthly virtual meetings** on the 3rd Monday of each month, plus **in-person events** at major conferences such as SC and ISC. See the [News](/news/) page for upcoming and past events.
+
+#### How can I get involved?
+
+Sign up to the [mailing list](https://groups.google.com/g/dynres) or read [how to join](/membership/).

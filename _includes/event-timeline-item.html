@@ -1,0 +1,20 @@
+<article class="timeline-event">
+  <div class="timeline-dot"></div>
+  <div class="timeline-content">
+    <h3 class="timeline-event__title">{{ include.event.title }}</h3>
+    <p class="timeline-event__meta">
+      {{ include.event.date }}{% if include.event.time %}, {{ include.event.time }}{% endif %}{% if include.event.location %} · {{ include.event.location }}{% endif %}
+    </p>
+    {% if include.event.description and include.event.description != "" %}
+      <p class="timeline-event__description">{{ include.event.description }}</p>
+    {% endif %}
+    {% if include.event.link %}
+      <p class="timeline-event__link"><a href="{{ include.event.link }}">More info</a></p>
+    {% endif %}
+    {% if include.event.image %}
+      <figure class="timeline-event__figure">
+        <img src="{{ include.event.image | relative_url }}" alt="{{ include.event.title }}" loading="lazy">
+      </figure>
+    {% endif %}
+  </div>
+</article>

@@ -1,0 +1,17 @@
+<li class="tutorial-list__item">
+  <p class="tutorial-list__title">
+    {% if include.tutorial.pdf %}
+      <strong><a href="{{ include.tutorial.pdf | relative_url }}">{{ include.tutorial.title }}</a></strong>
+    {% elsif include.tutorial.link %}
+      <strong><a href="{{ include.tutorial.link }}">{{ include.tutorial.title }}</a></strong>
+    {% else %}
+      <strong>{{ include.tutorial.title }}</strong>
+    {% endif %}
+  </p>
+  <p class="tutorial-list__meta">
+    {{ include.tutorial.instructor }}{% if include.tutorial.event %} · {{ include.tutorial.event }}{% endif %}{% if include.tutorial.date %} · {{ include.tutorial.date }}{% endif %}{% if include.tutorial.location %} · {{ include.tutorial.location }}{% endif %}
+  </p>
+  {% if include.contact_note %}
+  <p class="tutorial-list__note">Contact the instructor for materials.</p>
+  {% endif %}
+</li>

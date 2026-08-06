@@ -68,7 +68,6 @@ collections:
     description: "My thoughts and ideas" # The post list page content
     feature_text: |
       Welcome to the blog
-    feature_image: "https://picsum.photos/2560/600?image=866"
 
 # 6. Jekyll collections settings
 defaults:
@@ -96,11 +95,18 @@ lang: en-US # Set the site language
 title: "DynResHPC" # Site name or title, also used in jekyll-seo-tag
 logo: "/assets/logos/dynres-logo-trans.png" # Site logo, also used in jekyll-seo-tag
 #description: "The Dynamic Resources for HPC Consortium is a collaborative group focused on advancing dynamic resource management, malleable applications, and adaptive scheduling in High-Performance Computing (HPC) systems." # Site description and default description, also used in jekyll-seo-tag
-description: "Dynamic Resources for HPC Consortium advances dynamic resource management, malleable applications, and adaptive scheduling for High‑Performance Computing. <br> Join our <a href=\"https://groups.google.com/g/dynres\" target=\"_blank\" rel=\"noopener noreferrer\">community</a> and attend our virtual meetings on the <strong>3rd Monday of each month at 5:00 PM CET</strong>."
+description: "Dynamic Resources for HPC Consortium advances dynamic resource management, malleable applications, and adaptive scheduling for High-Performance Computing."
+description_plain: "Dynamic Resources for HPC Consortium advances dynamic resource management, malleable applications, and adaptive scheduling for High-Performance Computing. Join our community and attend virtual meetings on the 3rd Monday of each month at 5:00 PM CET."
 url: "https://dynreshpc.github.io" # Site url, also used in jekyll-seo-tag
 baseurl: ""
 repo: "https://github.com/dynreshpc/dynreshpc.github.io"
 email: "sergio.iserte@bsc.es"
+email_martin: "martin.schreiber@univ-grenoble-alpes.fr"
+monthly_meeting:
+  title: "Monthly consortium meeting"
+  schedule: "3rd Monday of each month"
+  time: "5:00 PM CET"
+  mailing_list: "https://groups.google.com/g/dynres"
 # disqus: "alembic-1" # Blog post comments, uncomment the option and set the site ID from your Disqus account
 # date_format: "%-d %B %Y" # Blog post date formatting using placeholder formatting
 # google_analytics: ""
@@ -116,25 +122,24 @@ favicons: # Favicons are also used in the manifest file. Syntax is 'size: path'
 
 # 9. Site navigation
 navigation_header:
-#- title: Home
-#  url: /
+- title: DynResHPC
+  url: /
+- title: News
+  url: /news/
+- title: Tutorials
+  url: /projects/
+- title: Resources
+  url: /resources/
+- title: Membership
+  url: /membership/
 - title: About
   url: /about/
-- title: Events
-  url: /events/
-  #url: /elements/
-- title: Resources
-  #url: /blog/
-  #- title: Board
-  #url: /board/
-  url: /resources/
-  # url: /search/
-- title: Join!
-  url: https://groups.google.com/u/0/g/dynres
 
 navigation_footer:
-#- title: Created by David Darnes
-#  url: https://darn.es
+- title: Join
+  url: /membership/
+- title: Mailing list
+  url: https://groups.google.com/g/dynres
 
 social_links: # Appears in sidebar. Set the urls then uncomment and comment out as desired
 #  Twitter: https://twitter.com/DavidDarnes
@@ -156,4 +161,4 @@ fonts:
   preconnect_urls:
     - https://fonts.gstatic.com
   font_urls:
-    - https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap
+    - https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700&display=swap

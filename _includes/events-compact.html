@@ -1,0 +1,60 @@
+{% assign event_limit = include.limit | default: 4 | plus: 0 %}
+{% assign event_count = 0 %}
+{% assign kind_filter = include.kind %}
+{% assign today = site.time | date: "%Y-%m-%d" %}
+{% assign include_tutorials = include.include_tutorials | default: true %}
+
+<ul class="event-list--compact">
+  {% if include_tutorials %}
+    {% for tutorial in site.data.tutorials %}
+      {% if tutorial.date_iso and tutorial.date_iso >= today %}
+        {% if event_count < event_limit %}
+          <li class="event-list__item">
+            {% if tutorial.pdf %}
+              <a href="{{ tutorial.pdf | relative_url }}" class="event-list__title">{{ tutorial.title }}</a>
+            {% elsif tutorial.link %}
+              <a href="{{ tutorial.link }}" class="event-list__title">{{ tutorial.title }}</a>
+            {% else %}
+              <a href="{{ '/projects/' | relative_url }}" class="event-list__title">{{ tutorial.title }}</a>
+            {% endif %}
+            <p class="event-list__meta">
+              Tutorial{% if tutorial.date %} · {{ tutorial.date }}{% endif %}{% if tutorial.location %} — {{ tutorial.location }}{% endif %}
+            </p>
+          </li>
+          {% assign event_count = event_count | plus: 1 %}
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+  {% endif %}
+
+  {% for year_group in site.data.events %}
+    {% for event in year_group.events %}
+      {% assign skip_event = true %}
+      {% if event.date_iso and event.date_iso >= today %}
+        {% assign skip_event = false %}
+      {% endif %}
+      {% if kind_filter == 'event' and event.kind == 'meeting' %}
+        {% assign skip_event = true %}
+      {% endif %}
+      {% unless skip_event %}
+        {% if event_count < event_limit %}
+          <li class="event-list__item">
+            {% if event.link %}
+              <a href="{{ event.link }}" class="event-list__title">{{ event.title }}</a>
+            {% else %}
+              <span class="event-list__title">{{ event.title }}</span>
+            {% endif %}
+            <p class="event-list__meta">
+              {{ event.date }}{% if event.time %}, {{ event.time }}{% endif %} — {{ event.location }}
+            </p>
+          </li>
+          {% assign event_count = event_count | plus: 1 %}
+        {% endif %}
+      {% endunless %}
+    {% endfor %}
+  {% endfor %}
+</ul>
+
+{% if event_count == 0 %}
+<p class="event-list__empty">No upcoming events listed.</p>
+{% endif %}

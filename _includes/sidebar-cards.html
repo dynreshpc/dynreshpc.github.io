@@ -1,0 +1,8 @@
+<div class="sidebar-cards">
+  {% include sidebar-next-meeting.html %}
+  <section class="sidebar-card sidebar-card--events">
+    <h3>Upcoming events/tutorials</h3>
+    {% include events-compact.html limit=2 kind=event %}
+    <p><a href="/news/">All events</a></p>
+  </section>
+</div>

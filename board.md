@@ -2,7 +2,6 @@
 title: Board
 feature_text: |
   Dynamic Resources for HPC Consortium
-feature_image: "https://picsum.photos/2560/600?image=873"
 #excerpt: "A demo of Markdown and HTML includes"
 aside: true
 ---
