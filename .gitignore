@@ -3,6 +3,5 @@ _site/
 .jekyll-cache/
 .jekyll-metadata
 alembic-jekyll-theme-*.gem
-Gemfile.lock
-**/Gemfile.lock
-
+vendor/**
+.bundle/
