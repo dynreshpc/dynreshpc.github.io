@@ -1,5 +1,13 @@
 - year: 2026
   events:
+    - title: "SC26 BoF - The future of dynamic resource utilization in HPC: Chances & Challenges"
+      date: "November 19th"
+      date_iso: "2026-11-19"
+      location: "Chicago"
+      description: ""
+      link: "https://sc26.conference-program.com/presentation/?id=bof104&sess=sess427"
+      id: "2026-sc-bof"
+
     - title: "Independent Event: 5th Workshop on Dynamic Resources in HPC and monthly consortium meeting"
       date: "February 11th"
       date_iso: "2026-02-11"
