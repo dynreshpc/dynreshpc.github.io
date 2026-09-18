@@ -824,13 +824,29 @@ pre code {
     display: block;
     font-weight: 600;
     color: $headingColour;
-    margin-bottom: .1rem;
+    margin-bottom: .25rem;
   }
 
   .event-list__meta {
     font-size: .85rem;
     color: $bodyColour;
     margin: 0;
+  }
+}
+
+.typeset .event-list--compact a.event-list__title {
+  background-image: none;
+  text-shadow: none;
+  text-decoration: underline;
+  text-decoration-thickness: 0.08em;
+  text-underline-offset: 0.2em;
+
+  &:hover,
+  &:active,
+  &:focus {
+    background-image: none;
+    text-shadow: none;
+    color: $hoverColour;
   }
 }
 

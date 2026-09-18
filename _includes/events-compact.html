@@ -1,4 +1,4 @@
-{% assign event_limit = include.limit | default: 4 | plus: 0 %}
+{% assign event_limit = include.limit | default: 3 | plus: 0 %}
 {% assign event_count = 0 %}
 {% assign kind_filter = include.kind %}
 {% assign today = site.time | date: "%Y-%m-%d" %}
