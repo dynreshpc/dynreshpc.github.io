@@ -1,8 +1,27 @@
+{% assign today = site.time | date: "%Y-%m-%d" %}
+{% assign upcoming_count = 0 %}
+{% for tutorial in site.data.tutorials %}
+  {% if tutorial.date_iso and tutorial.date_iso >= today %}
+    {% assign upcoming_count = upcoming_count | plus: 1 %}
+  {% endif %}
+{% endfor %}
+{% for year_group in site.data.events %}
+  {% for event in year_group.events %}
+    {% if event.date_iso and event.date_iso >= today %}
+      {% unless event.kind == 'meeting' %}
+        {% assign upcoming_count = upcoming_count | plus: 1 %}
+      {% endunless %}
+    {% endif %}
+  {% endfor %}
+{% endfor %}
+
 <div class="sidebar-cards">
   {% include sidebar-next-meeting.html %}
+  {% if upcoming_count > 0 %}
   <section class="sidebar-card sidebar-card--events">
     <h3>Upcoming events/tutorials</h3>
-    {% include events-compact.html limit=2 kind=event %}
+    {% include events-compact.html limit=3 kind=event %}
     <p><a href="/news/">All events</a></p>
   </section>
+  {% endif %}
 </div>
