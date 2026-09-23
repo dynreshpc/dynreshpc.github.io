@@ -4,7 +4,11 @@ description: Governance and leadership of the DynResHPC consortium.
 aside: true
 ---
 
-The Dynamic Resources for HPC Consortium is a collaborative group focused on advancing dynamic resource management, malleable applications, and adaptive scheduling in High-Performance Computing (HPC) systems.
+The Dynamic Resources for HPC Consortium is a collaborative group focused on topics such as
+advancing dynamic resource management,
+runtime resource adaptive applications, and
+adaptive scheduling
+in High-Performance Computing (HPC) systems.
 
 The Consortium is governed by:
 

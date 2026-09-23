@@ -8,7 +8,7 @@ redirect_from:
 
 ## Who can join?
 
-Membership in DynResHPC is open to individuals and institutions whose activities align with dynamic resource management, malleable applications, and adaptive scheduling in HPC systems.
+Membership in DynResHPC is open to individuals and institutions whose activities align with dynamic resource management, runtime resource adaptive applications, and adaptive scheduling in HPC systems.
 
 ## What members contribute
 
