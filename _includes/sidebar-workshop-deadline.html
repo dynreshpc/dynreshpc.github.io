@@ -1,0 +1,8 @@
+<div class="sidebar-cards">
+  <section class="sidebar-card">
+    <h3>Paper submission</h3>
+    <p>Paper deadline: <strong>{{ page.paper_deadline | default: "1 March 2027 (AoE)" }}</strong></p>
+    <p>Time left: <strong class="js-paper-deadline-countdown" data-deadline="{{ page.paper_deadline_iso }}">Calculating…</strong></p>
+    <p><a href="{{ page.submit_url | default: 'https://ssl.linklings.net/conferences/isc_hpc/' }}" target="_blank" rel="noopener noreferrer">Submit a paper</a></p>
+  </section>
+</div>
