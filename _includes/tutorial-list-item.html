@@ -1,16 +1,32 @@
 <li class="tutorial-list__item">
-  <p class="tutorial-list__title">
+  <p class="tutorial-list__line">
+    <strong>Tutorial:</strong>
     {% if include.tutorial.pdf %}
-      <strong><a href="{{ include.tutorial.pdf | relative_url }}">{{ include.tutorial.title }}</a></strong>
+      <a href="{{ include.tutorial.pdf | relative_url }}">{{ include.tutorial.title }}</a>
     {% elsif include.tutorial.link %}
-      <strong><a href="{{ include.tutorial.link }}">{{ include.tutorial.title }}</a></strong>
+      <a href="{{ include.tutorial.link }}">{{ include.tutorial.title }}</a>
     {% else %}
-      <strong>{{ include.tutorial.title }}</strong>
+      {{ include.tutorial.title }}
     {% endif %}
   </p>
-  <p class="tutorial-list__meta">
-    {{ include.tutorial.instructor }}{% if include.tutorial.event %} · {{ include.tutorial.event }}{% endif %}{% if include.tutorial.date %} · {{ include.tutorial.date }}{% endif %}{% if include.tutorial.location %} · {{ include.tutorial.location }}{% endif %}
+  {% if include.tutorial.date %}
+  <p class="tutorial-list__line">{{ include.tutorial.date }}</p>
+  {% endif %}
+  {% if include.tutorial.instructor %}
+  <p class="tutorial-list__line"><strong>Instructors:</strong> {{ include.tutorial.instructor }}</p>
+  {% endif %}
+  {% if include.tutorial.event or include.tutorial.location %}
+  <p class="tutorial-list__line">
+    <strong>Event:</strong>
+    {% if include.tutorial.event and include.tutorial.location %}
+      {{ include.tutorial.event }} and {{ include.tutorial.location }}
+    {% elsif include.tutorial.event %}
+      {{ include.tutorial.event }}
+    {% else %}
+      {{ include.tutorial.location }}
+    {% endif %}
   </p>
+  {% endif %}
   {% if include.contact_note %}
   <p class="tutorial-list__note">Contact the instructor for materials.</p>
   {% endif %}

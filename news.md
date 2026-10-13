@@ -7,4 +7,6 @@ redirect_from:
   - /history/
 ---
 
+This page lists DynResHPC consortium meetings, workshops, Birds of a Feather sessions, and related community events, both upcoming and past. Tutorials are listed only on the [Tutorials](/tutorials/) page.
+
 {% include events-timeline.html %}

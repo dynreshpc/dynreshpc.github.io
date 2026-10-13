@@ -684,17 +684,13 @@ pre code {
   padding-bottom: 0;
 }
 
-.tutorial-list__title {
-  margin: 0 0 0.25rem;
-}
-
-.tutorial-list__meta,
-.tutorial-list__note {
+.tutorial-list__line {
   margin: 0.15rem 0;
-  font-size: 0.95em;
 }
 
 .tutorial-list__note {
+  margin: 0.35rem 0 0;
+  font-size: 0.95em;
   color: #64748b;
   font-style: italic;
 }

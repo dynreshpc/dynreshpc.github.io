@@ -2,6 +2,8 @@
 title: Tutorials
 description: Tutorials presented at DynResHPC events and related conferences.
 aside: true
+redirect_from:
+  - /projects/
 ---
 
 Tutorials given at DynResHPC workshops and partner conferences. For upcoming tutorials, materials may be linked below when available. For past tutorials, please contact the instructor if you need access to slides or other materials.

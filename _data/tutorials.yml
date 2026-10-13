@@ -1,11 +1,3 @@
-- title: "Unlocking Malleability in HPC Applications"
-  instructor: "Alberto Cascajo and Javier Fernandez Muñoz"
-  event: "IEEE/SBC SBAC-PAD 2026"
-  date: "October 16th, 2027"
-  date_iso: "2027-10-16"
-  location: "Madrid, Spain"
-  link: "https://acascajo.github.io/sbac-pad-malleability-tutorial/"
-
 - title: "Dynamic Resource Management for HPC"
   instructor: "Sergio Iserte, Dominik Huber"
   event: "HiPEAC 2027"
@@ -13,7 +5,15 @@
   date_iso: "2027-01-19"
   location: "Glasgow, Scotland"
   link: "https://www.hipeac.net/events/sessions/8338/dynamic-resource-management-hpc/#/"
-  
+
+- title: "Unlocking Malleability in HPC Applications"
+  instructor: "Alberto Cascajo and Javier Fernandez Muñoz"
+  event: "IEEE/SBC SBAC-PAD 2026"
+  date: "October 16th, 2026"
+  date_iso: "2026-10-16"
+  location: "Madrid, Spain"
+  link: "https://acascajo.github.io/sbac-pad-malleability-tutorial/"
+
 - title: "Dynamic Resource Management for HPC"
   instructor: "Sergio Iserte, Dominik Huber"
   event: "PPAM 2026"
